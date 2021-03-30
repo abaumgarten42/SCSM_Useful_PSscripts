@@ -7,8 +7,8 @@ $ModifiedBefore = 3
 $IncidentStatus = 'Active'
 
 # Configure your mail server, the recipient and the sender of the mail  
-# $smtphost=�mailserver.yourdomain.local�   
-# $from=�mail@yourdomain.local�  
+# $smtphost="mailserver.yourdomain.local"   
+# $from="mail@yourdomain.local"  
  
 $smtphost = "Mailserver.demo.local"    
 $from = "Helpdesk@demo.local" 

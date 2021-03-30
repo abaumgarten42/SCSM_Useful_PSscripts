@@ -1,4 +1,4 @@
-# Author: Anton Gritsenke - freemanru[at]gmail[dot]com
+# Author: Anton Gritsenko - freemanru[at]gmail[dot]com
 # Posted the script here withe the permission of Anton
 
 $userName = "SCSMSOL\geocall"

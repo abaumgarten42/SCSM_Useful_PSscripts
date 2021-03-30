@@ -2,9 +2,9 @@
 Import-Module SMlets -force
  
 # Configure your mail server, the recipient and the sender of the mail 
-# $smtphost=�mailserver.yourdomain.local� 
-# $to=�administrator@yourdomain.local� 
-# $from=�mail@yourdomain.local� 
+# $smtphost="mailserver.yourdomain.local" 
+# $to="administrator@yourdomain.local" 
+# $from="mail@yourdomain.local" 
 
 $smtphost = "mailserver.demo.local" 
 $to = "Administrator@demo.local" 
@@ -64,7 +64,7 @@ If ($Incidents.count -gt 0)
 	
 	# If there is any unassigned incident send a mail with a list of these incidents 
 	if ($Counter -gt 0) 
-		{ $subject = �Unassigned incidents in Service Manager Support Group: �+ $TierQueue.Displayname + �, total of � + $Counter
+		{ $subject = "Unassigned incidents in Service Manager Support Group: "+ $TierQueue.Displayname + ", total of " + $Counter
 		$body = $Output
 	Send-Mail $from $to $subject $body 
 		}

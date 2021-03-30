@@ -1,4 +1,4 @@
-# Author: Anton Gritsenke - freemanru[at]gmail[dot]com
+# Author: Anton Gritsenko - freemanru[at]gmail[dot]com
 # Posted the script here withe the permission of Anton
 # Code below is using the same aproach as it do a SCSM AD Connector
 
