@@ -9,33 +9,33 @@ Microsoft System Center Service Manager
 
 Scripts in this repository:
 
-- Sent-InactiveIncidentNotification-V0.2.ps1  
+- [Send-InactiveIncidentNotification-V0.2.ps1](Send-InactiveIncidentNotification-V0.2.ps1)
   - Sent email notification if Incident is inactive for x days 
-- Sent-UnassignedIncidentsMail-V0.4.ps1  
+- [Send-UnassignedIncidentsMail-V0.4.ps1](Send-UnassignedIncidentsMail-V0.4.ps1)  
   - Sent email notification if Incident is unassigned for x hours 
-- Set-PrimaryAndAssignedUser.ps1  
+- [Set-PrimaryAndAssignedUser.ps1](Set-PrimaryAndAssignedUser.ps1)  
   - Set user -> Incident Assigned User + Primary Owner
-- Set-ScheduledStartEndFromCRtoMA.ps1  
+- [Set-ScheduledStartEndFromCRtoMA.ps1](Set-ScheduledStartEndFromCRtoMA.ps1)  
   - Set Scheduled StartDate of CR in all related MAs
-- Get-IRwithAttachments.ps1  
+- [Get-IRwithAttachments.ps1](Get-IRwithAttachments.ps1)  
   - Get incidents with file attachments
-- Generate_Holiday-CSV_for_SLA-Calender.zip
+- [Generate_Holiday-CSV_for_SLA-Calender.zip](Generate_Holiday-CSV_for_SLA-Calender.zip)
   - From Anders Asp and Andreas Baumgarten
   - Everything you need to create a csv file with the holidays for your SCSM SLA Calendar
   - https://techcommunity.microsoft.com/t5/system-center-blog/scsm-2012-import-holidays-in-sla-calendar/ba-p/344629  
-- Set-DescriptionWithUserInput.ps1  
+- [Set-DescriptionWithUserInput.ps1](Set-DescriptionWithUserInput.ps1)  
   - Write SR User Input in SR Description field
-- Set-DescriptionActivitiesOfparentSR.ps1  
+- [Set-DescriptionActivitiesOfparentSR.ps1](Set-DescriptionActivitiesOfparentSR.ps1)  
   - Write SR Description in all related Activities' Description fields
-- Sync-SCSMconnector.ps1
+- [Sync-SCSMconnector.ps1](Sync-SCSMconnector.ps1)
   - Start a SCSM Connector via script
-- Get-DCusedByADconnector.ps1
+- [Get-DCusedByADconnector.ps1](Get-DCusedByADconnector.ps1)
   - From Anton Gritsenko (got the permission from Anton to put the script in this repository)
   - Get the name of the DC that is used by SCSM AD Connectors
-- Get-SCSMrolesOfUser.ps1
+- [Get-SCSMrolesOfUser.ps1](Get-SCSMrolesOfUser.ps1)
   - From Anton Gritsenko (got the permission from Anton to put the script in this repository)
   - Get the user's SCSM role memberships 
-- Close-ResolvedIncidentsBySpecificCriteria.ps1
+- [Close-ResolvedIncidentsBySpecificCriteria.ps1](Close-ResolvedIncidentsBySpecificCriteria.ps1)
   - Close resolved Incidents of different criterias (resolved or created by different users)
   
 -----------------
