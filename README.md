@@ -79,5 +79,5 @@ External links for cool SCSM stuff:
   - Remove Lock
   - Reset Batch Jobs
   - PowerShell to Rerun Jobs
-
-  
+- SCSM Troubleshooting: MonitoringHost.exe no longer runs and Connectors not working  
+  - https://social.technet.microsoft.com/wiki/contents/articles/52200.scsm-troubleshooting-monitoringhost-exe-no-longer-runs-and-connectors-not-working.aspx     
