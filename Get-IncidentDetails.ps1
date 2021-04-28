@@ -1,4 +1,4 @@
-Import-module SMlets # Implort SMLets module
+Import-module SMlets # Import SMLets module
 $smdefaultserver = "SCSM1" # Define SCSM Management Server
 $IRid = "IR2031" # Define Incident Record
 $IRclass=Get-SCSMclass -name System.Workitem.Incident$ # Get SCSM Incident class object
