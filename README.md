@@ -8,7 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
-
+- [Get-IncidentDetails.ps1] (Get-IncidentDetails.ps1)
+  - Get Incident Record details in individual variables 
 - [Send-InactiveIncidentNotification-V0.2.ps1](Send-InactiveIncidentNotification-V0.2.ps1)
   - Sent email notification if Incident is inactive for x days 
 - [Send-UnassignedIncidentsMail-V0.4.ps1](Send-UnassignedIncidentsMail-V0.4.ps1)  
