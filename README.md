@@ -82,3 +82,15 @@ External links for cool SCSM stuff:
   - PowerShell to Rerun Jobs
 - SCSM Troubleshooting: MonitoringHost.exe no longer runs and Connectors not working  
   - https://social.technet.microsoft.com/wiki/contents/articles/52200.scsm-troubleshooting-monitoringhost-exe-no-longer-runs-and-connectors-not-working.aspx     
+
+-----------------
+
+Books:
+
+- Microsoft System Center 2016 Service Manager Cookbook - Second Edition
+  - https://www.packtpub.com/product/microsoft-system-center-2016-service-manager-cookbook-second-edition/9781786464897
+- Microsoft System Center 2016 Orchestrator Cookbook - Second Edition
+  - https://www.packtpub.com/product/microsoft-system-center-2016-orchestrator-cookbook-second-edition/9781786460462
+- Microsoft System Center Reporting Cookbook
+  - https://www.packtpub.com/product/microsoft-system-center-reporting-cookbook/9781782171805
+  
