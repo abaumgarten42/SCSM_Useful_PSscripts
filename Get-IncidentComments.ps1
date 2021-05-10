@@ -16,7 +16,7 @@ $relIncidentUserComment = Get-SCSMRelationshipClass -Name System.WorkItem.Troubl
 $UserComments = Get-SCSMRelatedObject -SMObject $IRobject -Relationship $relIncidentUserComment
 $UserComments | Select *
 
-# Get action log of Incident
+# Get action log entries of Incident
 $relIncidentActionLog = Get-SCSMRelationshipClass -Name System.WorkItem.TroubleTicketHasActionLogg$
 $ActionLogEntries = Get-SCSMRelatedObject -SMObject $IRobject -Relationship $relIncidentActionLog
 $ActionLogEntries | Select *
