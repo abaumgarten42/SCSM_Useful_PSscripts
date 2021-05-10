@@ -6,7 +6,7 @@ $IRid = "IR2031" # Define Incident Record
 $IRclass=Get-SCSMclass -name System.Workitem.Incident$ # Get SCSM Incident class object
 $IRobject=Get-SCSMobject -class $IRclass -filter "ID -eq $IRid" # Get IR object
 
-# Get analys comments of Incident
+# Get analyst comments of Incident
 $relIncidentAnalystComment = Get-SCSMRelationshipClass -Name System.WorkItem.TroubleTicketHasAnalystComment$
 $AnalystComments = Get-SCSMRelatedObject -SMObject $IRobject -Relationship $relIncidentAnalystComment
 $AnalystComments | Select *
