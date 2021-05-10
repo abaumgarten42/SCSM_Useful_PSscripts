@@ -8,6 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
+- [Get-IncidentComments.ps1](Get-IncidentComments.ps1)
+  - Get analyst comment, user comment and action log entries from Incident Record
 - [Get-IncidentDetails.ps1](Get-IncidentDetails.ps1)
   - Get Incident Record details in individual variables 
 - [Send-InactiveIncidentNotification-V0.2.ps1](Send-InactiveIncidentNotification-V0.2.ps1)
