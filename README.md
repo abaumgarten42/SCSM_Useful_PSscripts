@@ -8,6 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
+- [Set-SCSMsupportGroup.ps1](Set-SCSMsupportGroup.ps1)
+  - Set Support Group based on Incident Classification and Incident Description content
 - [Get-IncidentComments.ps1](Get-IncidentComments.ps1)
   - Get analyst comment, user comment and action log entries from Incident Record
 - [Get-IncidentDetails.ps1](Get-IncidentDetails.ps1)
