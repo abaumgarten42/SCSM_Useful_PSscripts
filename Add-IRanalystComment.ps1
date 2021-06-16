@@ -12,7 +12,7 @@ $newGUID = ([guid]::NewGuid()).ToString()
 $projection = @{__CLASS = "System.WorkItem.TroubleTicket";
     __SEED              = $irObj;
     AnalystComments     = @{__CLASS = "System.WorkItem.TroubleTicket.AnalystCommentLog";
-        __OBJECT                = @{id = $NewGUID;
+        __OBJECT                = @{id = $newGUID;
             DisplayName = $newGUID;
             Comment     = $commentText;
             EnteredBy   = $commentAddedBy;
