@@ -8,6 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
+- [Add-IRanalystComment.ps1](Add-IRanalystComment.ps1)
+  - Adds an Analyset Comment to an Incident
 - [Set-SCSMsupportGroup.ps1](Set-SCSMsupportGroup.ps1)
   - Set Support Group based on Incident Classification and Incident Description content
 - [Get-IncidentComments.ps1](Get-IncidentComments.ps1)
