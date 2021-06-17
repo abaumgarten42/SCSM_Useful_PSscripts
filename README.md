@@ -2,7 +2,7 @@
 Microsoft System Center Service Manager
 - Some helpful PowerShell scripts for SCSM
 - SMLets are required: https://github.com/SMLets/SMLets   
-- *The scripts were published before in the Microsoft Technet Gallery (retired)*  
+- *Some scripts were published before in the Microsoft Technet Gallery (retired)*  
 - *Should work with SCSM 2012/2012R2/2016/2019*  
 
 -----------------
