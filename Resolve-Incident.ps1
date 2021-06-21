@@ -25,8 +25,8 @@ $resolveDetails=@{
 "ResolvedDate" = (Get-Date).ToUniversalTime();
 "TargetResolutionTime" = (Get-Date).ToUniversalTime();
 }
-# Update incident object with seolution details
+# Update incident object with resolution details
 Set-SCSMObject -SMObject $irObj -PropertyHashtable $resolveDetails
 
-# Create new relationship object
+# Create new relationship object ResolvedByUser
 New-SCSMRelationshipObject -Relationship $resolvedByUserRel -Source $irObj -Target $resolvedByUserObj -Bulk
