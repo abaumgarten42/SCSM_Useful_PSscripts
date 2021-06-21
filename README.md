@@ -8,6 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
+- [Resolve-Incident.ps1](Resolve-Incident.ps1)
+  - Resolve Incident with details and ResolvedByUser 
 - [Add-IRanalystComment.ps1](Add-IRanalystComment.ps1)
   - Adds an Analyset Comment to an Incident
 - [Set-SCSMsupportGroup.ps1](Set-SCSMsupportGroup.ps1)
