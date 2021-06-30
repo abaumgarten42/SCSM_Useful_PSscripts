@@ -8,6 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
+- [Create-Incident.ps1](Create-Incident.ps1)
+  - Create new Incident with Affected User 
 - [Resolve-Incident.ps1](Resolve-Incident.ps1)
   - Resolve Incident with details and ResolvedByUser 
 - [Add-IRanalystComment.ps1](Add-IRanalystComment.ps1)
