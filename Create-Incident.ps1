@@ -1,6 +1,6 @@
 # Get analyst comment, user comment and action log entries from Incident
 
-Import-Module SMlets # Implort SMLets module
+Import-Module SMlets # Import SMLets module
 $smdefaultserver = "SCSM1" # Define SCSM Management Server
 # Define Incicent properties
 $irTitle = "Test Incident by PowerShell 1"
