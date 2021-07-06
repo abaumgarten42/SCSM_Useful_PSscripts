@@ -1,7 +1,7 @@
 # Create a Manual Activiy with different properties and AssignedTo User
 
 Import-Module SMlets # Import SMLets module
-
+$smdefaultserver = "SCSM1" # Define SCSM Management Server
 # Define Manual Activity properties
 $maTitle = "Test MA by PowerShell 1"
 $maDescription = "Test Description"
