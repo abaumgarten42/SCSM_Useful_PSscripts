@@ -1,4 +1,4 @@
-# Create an Incident with different properties and Affteced User
+# Create an Incident with different properties and Affected User
 
 Import-Module SMlets # Import SMLets module
 $smdefaultserver = "SCSM1" # Define SCSM Management Server
