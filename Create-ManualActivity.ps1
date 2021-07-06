@@ -1,6 +1,6 @@
 # Create a Manual Activiy with different properties and AssignedTo User
 
-Import-Module SMlets # Implort SMLets module
+Import-Module SMlets # Import SMLets module
 
 # Define Manual Activity properties
 $maTitle = "Test MA by PowerShell 1"
