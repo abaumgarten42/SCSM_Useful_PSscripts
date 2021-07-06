@@ -14,7 +14,7 @@ $irTierQueue = "Tier1"
 $irAffectedUser = "ppan1234"
 # --------------------
 $IRclass = Get-SCSMclass -name System.Workitem.Incident$ # Get SCSM Incident class object
-$UserClass = Get-SCSMClass -name System.Domain.User$ # Get SCSM User class class object
+$UserClass = Get-SCSMClass -name System.Domain.User$ # Get SCSM User class object
 $relAffectedUser = Get-SCSMRelationshipClass -Name System.WorkItemAffectedUser # Get SCSM relationship Affected User
 #  Get Affected User  
 $irAffectedUserObj = Get-SCSMObject -Class $UserClass -Filter "UserName -eq $irAffectedUser"
