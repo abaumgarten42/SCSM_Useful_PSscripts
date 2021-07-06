@@ -1,4 +1,4 @@
-# Get analyst comment, user comment and action log entries from Incident
+# Create an Incident with different properties and Affteced User
 
 Import-Module SMlets # Import SMLets module
 $smdefaultserver = "SCSM1" # Define SCSM Management Server
