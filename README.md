@@ -8,6 +8,8 @@ Microsoft System Center Service Manager
 -----------------
 
 Scripts in this repository:
+- [Update-MArelatedToIR.ps1](Update-MArelatedToIR.ps1)
+  - Update a Manual Activity related to an Incdident
 - [Create-Incident.ps1](Create-Incident.ps1)
   - Create new Incident with Affected User 
 - [Create-ManualActivity.ps1](Create-ManualActivity.ps1)
